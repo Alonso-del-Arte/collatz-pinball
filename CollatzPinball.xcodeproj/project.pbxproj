@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6104E0702DC47450009CC650 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6104E06F2DC47450009CC650 /* .gitignore */; };
+		6104E0722DC475F5009CC650 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6104E0712DC475F5009CC650 /* LICENSE */; };
+		6104E0742DC47634009CC650 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6104E0732DC47634009CC650 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		6104E0502DC473AE009CC650 /* CollatzPinballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollatzPinballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6104E05A2DC473AE009CC650 /* CollatzPinballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollatzPinballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6104E06F2DC47450009CC650 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6104E0712DC475F5009CC650 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6104E0732DC47634009CC650 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +84,8 @@
 		6104E02E2DC473AD009CC650 = {
 			isa = PBXGroup;
 			children = (
+				6104E0732DC47634009CC650 /* README.md */,
+				6104E0712DC475F5009CC650 /* LICENSE */,
 				6104E06F2DC47450009CC650 /* .gitignore */,
 				6104E0392DC473AD009CC650 /* CollatzPinball */,
 				6104E0532DC473AE009CC650 /* CollatzPinballTests */,
@@ -218,7 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6104E0722DC475F5009CC650 /* LICENSE in Resources */,
 				6104E0702DC47450009CC650 /* .gitignore in Resources */,
+				6104E0742DC47634009CC650 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
